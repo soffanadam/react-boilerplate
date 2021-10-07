@@ -11,6 +11,7 @@ This project uses many tools like:
 - [TypeScript](https://www.typescriptlang.org)
 - [Jest](https://jestjs.io)
 - [Testing Library](https://testing-library.com)
+- [Cypress](https://www.cypress.io)
 - [Tailwindcss](https://tailwindcss.com)
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
@@ -22,7 +23,7 @@ This project uses many tools like:
 Create the project.
 
 ```bash
-npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
+npx degit soffanadam/react-boilerplate my-app
 ```
 
 Access the project directory.
