@@ -1,8 +1,7 @@
-// example.test.ts
-// Just an ordinary sample test
+// landing.test.ts
 
 import { defaultInit } from '../utils/testHelperUtils'
-import { assertWelcomeTextSeen } from '../utils/testLandingUtils'
+import { assertWelcomeTextSeen } from '../utils/testAppUtils'
 
 describe('Landing', () => {
   defaultInit()

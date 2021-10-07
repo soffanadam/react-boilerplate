@@ -1,16 +1,16 @@
 {
-  "name": "reactjs-vite-tailwindcss-boilerplate",
+  "name": "react-boilerplate",
   "description": "This is a React + vite boilerplate to be used with Tailwindcss.",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "João Paulo Moraes",
-    "email": "joaopaulomoraes@outlook.com",
-    "url": "https://github.com/joaopaulomoraes"
+    "name": "Soffan Adam",
+    "email": "soffanadam@gmail.com",
+    "url": "https://github.com/soffanadam"
   },
   "bugs": {
-    "url": "https://github.com/joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate/issues",
-    "email": "joaopaulomoraes@outlook.com"
+    "url": "https://github.com/soffanadam/react-boilerplate/issues",
+    "email": "soffanadam@gmail.com"
   },
   "scripts": {
     "dev": "vite",
@@ -22,8 +22,16 @@
     "lint": "eslint src --max-warnings=0"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
+    "@types/react-router-dom": "^5.3.0",
+    "axios": "^0.22.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-helmet-async": "^1.1.2",
+    "react-icons": "4.2.0",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.3.0",
+    "redux-saga": "^1.1.3"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
@@ -32,7 +40,7 @@
     "@babel/preset-typescript": "^7.14.5",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
-    "@types/jest": "^26.0.24",
+    "@types/jest": "^27.0.2",
     "@types/node": "^16.3.2",
     "@types/react": "^17.0.14",
     "@types/react-dom": "^17.0.9",
@@ -48,11 +56,15 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-tailwindcss": "^1.14.1",
     "jest": "^27.0.6",
+    "jest-raw-loader": "^1.0.1",
     "postcss": "^8.3.5",
     "prettier": "2.3.2",
     "react-test-renderer": "^17.0.2",
+    "regenerator-runtime": "^0.13.9",
     "tailwindcss": "^2.2.4",
+    "ts-jest": "^27.0.5",
     "typescript": "^4.3.5",
-    "vite": "^2.4.2"
+    "vite": "^2.4.2",
+    "vite-plugin-rewrite-all": "^0.1.2"
   }
 }
